@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.contenido{
+    min-height: 100vh;
+    padding: 40px 8%;   
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.texto{
+    width: 600px;
+    max-width: 100%;
+    background-color: rgba(67, 67, 67, 0.55);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+texto h1, h2, h3, p, li{
+    margin-bottom: 22px;
+}
+/*menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+
+ul{
+    list-style: none;
+}
+ul a{
+    background-color: black;
+    display: block;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.4s ease;
+}
+
+ul a:hover{
+    background-color: greenyellow;
+    color: white;
+    transform: translateX(10%);
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+#inicio{
+    background-image: url(../images/inicio.png);
+}
+#zona1{
+    background-image: url(../images/parallax1.png);
+}
+
+#zona2{
+    background-image: url(../images/parallax2.png);
+}
+
+#zona3{
+    background-image: url(../images/parallax3.png);
+}
+
+#zona4{
+    background-image: url(../images/parallax4.png);
+}
+
+#zona5{
+    background-image: url(../images/parallax5.png);
+}
